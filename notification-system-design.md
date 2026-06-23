@@ -1,14 +1,15 @@
 # Notification System Design
-## Stage 1
-# Campus Notifications Microservices
-# Core actions:
+# Stage 1
+
+## Campus Notifications Microservices
+## Core actions:
 - Create notification
 - Send notification
 - Receive notification
 - Mark as read
 - Delete notification
 
-# REST APIs design
+## REST APIs design
 - POST /api/notifications
 - GET /api/notifications
 - GET /api/notifications/:id
@@ -16,7 +17,7 @@
 - DELETE /api/notifications/:id
 - POST /api/notifications/send
 
-# JSON schema
+## JSON schema
 
 ```json
 
