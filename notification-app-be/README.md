@@ -17,6 +17,9 @@
 - POST /api/notifications/send
 
 # JSON schema
+
+```json
+
 {
     "title": ,
     "message": ,
